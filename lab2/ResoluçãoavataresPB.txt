@@ -1,0 +1,2 @@
+Antes (928, 3384) Altura/largura
+Depois (464, 1692) Altura/largura
