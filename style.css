@@ -64,10 +64,10 @@ a:hover {
 }
 
 img{
-    max-height: 180px;
-    max-width: 180px;
-    border-radius: 150px;
-    margin: 10px 0 0px 30px;
+    display: block;
+    max-height: 480px;
+    max-width: 360px;
+    margin: 10px;
 }
 
 .division {
