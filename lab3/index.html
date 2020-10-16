@@ -8,15 +8,106 @@
 </head>
 <body>
 <div class="main">
-    <h1>Laboratório 2 – Imagem e Captura de Vídeo</h1>
+    <h1>Laboratório 3 - Codicação de Imagem por DCT e Animação</h1>
 
-    Foto Original do Grupo <br>
-    <img src="./FotosGrupo.png" alt="Foto Grupo"> <br>
+    <h2>Parte 1 - Jupyter Notebook</h2>
 
-    Vídeo Lento <br>
-    <video width="360" height="240" controls>
+    <h3>Sistemas de cores</h3>
+
+    Fotos RGB - YCbCr - HSV <br>
+    <img src="./.png" alt="Foto RGB - YCbCr - HSV Grupo "> <br>
+    <img src="./.png" alt="Foto RGB - YCbCr - HSV Bruno "> <br>
+    <img src="./.png" alt="Foto RGB - YCbCr - HSV Gabriel"> <br>
+    <img src="./.png" alt="Foto RGB - YCbCr - HSV Jonas"> <br>
+    <img src="./.png" alt="Foto RGB - YCbCr - HSV Lucas"> <br>
+    <img src="./.png" alt="Foto RGB - YCbCr - HSV Matheus"> <br>
+
+    Separação das Camadas RGB individualmente<br>
+    <img src="./.png" alt="Foto R - G - B Grupo "> <br>
+    <img src="./.png" alt="Foto R - G - B Bruno "> <br>
+    <img src="./.png" alt="Foto R - G - B Gabriel"> <br>
+    <img src="./.png" alt="Foto R - G - B Jonas"> <br>
+    <img src="./.png" alt="Foto R - G - B Lucas"> <br>
+    <img src="./.png" alt="Foto R - G - B Matheus"> <br>
+
+    Separação dos Canais YCbCr<br>
+    <img src="./.png" alt="Foto Y - Cb - Cr Grupo "> <br>
+    <img src="./.png" alt="Foto Y - Cb - Cr Bruno "> <br>
+    <img src="./.png" alt="Foto Y - Cb - Cr Gabriel"> <br>
+    <img src="./.png" alt="Foto Y - Cb - Cr Jonas"> <br>
+    <img src="./.png" alt="Foto Y - Cb - Cr Lucas"> <br>
+    <img src="./.png" alt="Foto Y - Cb - Cr Matheus"> <br>
+
+    <h3>Compressão de Imagens com Perdas</h3>
+
+    Foto Original - JPEG25 - JPEG05 <br>
+    <img src="./.png" alt="Foto Original - JPEG25 - JPEG05 Grupo "> <br>
+    <img src="./.png" alt="Foto Original - JPEG25 - JPEG05 Bruno "> <br>
+    <img src="./.png" alt="Foto Original - JPEG25 - JPEG05 Gabriel"> <br>
+    <img src="./.png" alt="Foto Original - JPEG25 - JPEG05 Jonas"> <br>
+    <img src="./.png" alt="Foto Original - JPEG25 - JPEG05 Lucas"> <br>
+    <img src="./.png" alt="Foto Original - JPEG25 - JPEG05 Matheus"> <br>
+
+    Tabela de Tamanhos em Bytes <br>
+    <table style="width:100%">
+        <tr>
+            <th>Imagem</th> <th>Original</th> <th>JPEG25</th> <th>Compressão</th> <th>JPEG05</th> <th>Compressão</th>
+        </tr>
+        <tr>
+            <td>Grupo</td> <td>00</td> <td>00</td> <td>00%</td> <td>00</td> <td>00%</td>
+        </tr>
+        <tr>
+            <td>Bruno</td> <td>00</td> <td>00</td> <td>00%</td> <td>00</td> <td>00%</td>
+        </tr>
+        <tr>
+            <td>Gabriel</td> <td>00</td> <td>00</td> <td>00%</td> <td>00</td> <td>00%</td>
+        </tr>
+        <tr>
+            <td>Jonas</td> <td>00</td> <td>00</td> <td>00%</td> <td>00</td> <td>00%</td>
+        </tr>
+        <tr>
+            <td>Lucas</td> <td>00</td> <td>00</td> <td>00%</td> <td>00</td> <td>00%</td>
+        </tr>
+        <tr>
+            <td>Matheus</td> <td>00</td> <td>00</td> <td>00%</td> <td>00</td> <td>00%</td>
+        </tr>
+    </table>
+
+    <h3>Transformada Discreta Cosseno</h3>
+
+    Bloco Original e Reconstruído com Zeros das componentes AC da diagonal para baixo zerados <br>
+    <img src="./.png" alt="Bloco Original - Bloco Recontruído Messi"> <br>
+
+    Refaça este procedimento zerando mais DUAS DIAGONAIS ACIMA DA PRINCIPAL além destas <br>
+    <img src="./.png" alt="Bloco Original - Bloco Recontruído2 Messi"> <br>
+    
+    Compare e comente as imagens do bloco original e reconstruída <br>
+    <p>
+        O bloco reconstruído tem menor qualidade.
+    </p>
+
+    <h3>Links para o Jupyter Notebook</h3>
+    <a href="Lab3DEVS.ipynb">Original</a> <br>
+    <a href="Lab3DEVS.html">Html</a> <br>
+
+    <h2>Parte 2 - Blender</h2>
+
+    <p>
+        Para o relatório, além das atividades no Collab, colocar na sua página uma animação feita em Blender (ou outro sw), com a melhoria da iluminação sugerida por: <br>
+
+        Blender, Texto com Iluminação: https://www.youtube.com/watch?v=Lrhwq3cxz_c&t=216s
+        E pesquise para comentar algo das possibilidades, de: <br>
+
+        Blender, Animação 2D: https://www.youtube.com/watch?v=vVziWi0vQkc
+        ou 2D como se fosse 3D: https://www.youtube.com/watch?v=BlU49dJhfcw
+    </p>
+
+    Animação Blender <br>
+    <video width="720" height="360" controls>
         <source src="./Video.mp4" type="video/mp4">
     </video> <br>
+
+    <h2>Audio Descrição</h2>
 
     Descrição da Parte 1 <br>
     <audio controls>
@@ -24,10 +115,12 @@
             Your browser does not support the audio element.
     </audio><br>
 
-    <h3>j) Links para o Jupyter Notebook</h3>
-    <a href="Lab2DEVS.html">Jupyter Notebook convertido para html</a> <br>
-    <a href="Lab2DEVS.ipynb">Jupyter Notebook original</a> <br>
+    Descrição da Parte 2 <br>
+    <audio controls>
+            <source src="./parte2.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+    </audio><br>
    
-    </div>
+</div>
 </body>
 </html>
