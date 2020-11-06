@@ -5,7 +5,12 @@
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 50%;
+  padding: 5px;
+}
+.column5{
+  float: left;
+  width: 20%;
   padding: 5px;
 }
 
@@ -16,6 +21,9 @@
   display: table;
 }
 .column img {
+  width:100%;
+}
+.column5 img {
   width:100%;
 }
 
