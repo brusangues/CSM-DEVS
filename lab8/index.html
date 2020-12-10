@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratórios de CSM Grupo DEVS</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+<div class="main">
+    
+    <h1>Laboratório 8 - Codificação de Áudio</h1>
+    
+    <h2>Repita todos os passos para um arquivo de áudio original de preferência de um CD, mas ao invés da opção codificação com taxa fixa (-b:a), use -q:a N (com N um número de 0 a 9), de 320 a 65kbps</h2>
+
+    <h3>Música Escolhida: Imunização Racional</h3>
+    Música foi baixada da internet.<br>
+    Link para o arquivo original: <a href="https://drive.google.com/drive/folders/1vq-U77c0vPV1fMjoRdg_lGVUYhCLB4NE?usp=sharing">.wav</a>
+    <br>
+    Espectrograma
+    <div class="row">
+        <div class="column"> <img src=  "imunizacao_original.png" alt= "imunizacao_original.png"></div>
+    </div>
+
+    <h3>Taxa Variável Nível 0</h3>
+    Áudio <br>
+    <audio controls>
+            <source src="imunizacao0.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+    </audio><br>
+    Espectrograma
+    <div class="row">
+        <div class="column"> <img src=  "imunizacao0.png" alt= "imunizacao0.png"></div>
+    </div>
+
+    <h3>Taxa Variável Nível 2</h3>
+    Áudio <br>
+    <audio controls>
+            <source src="imunizacao2.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+    </audio><br>
+    Espectrograma
+    <div class="row">
+        <div class="column"> <img src=  "imunizacao2.png" alt= "imunizacao2.png"></div>
+    </div>
+
+    <h3>Taxa Variável Nível 4</h3>
+    Áudio <br>
+    <audio controls>
+            <source src="imunizacao4.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+    </audio><br>
+    Espectrograma
+    <div class="row">
+        <div class="column"> <img src=  "imunizacao4.png" alt= "imunizacao4.png"></div>
+    </div>
+
+    <h3>Taxa Variável Nível 6</h3>
+    Áudio <br>
+    <audio controls>
+            <source src="imunizacao6.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+    </audio><br>
+    Espectrograma
+    <div class="row">
+        <div class="column"> <img src=  "imunizacao6.png" alt= "imunizacao6.png"></div>
+    </div>
+
+    <h3>Taxa Variável Nível 8</h3>
+    Áudio <br>
+    <audio controls>
+            <source src="imunizacao8.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+    </audio><br>
+    Espectrograma
+    <div class="row">
+        <div class="column"> <img src=  "imunizacao8.png" alt= "imunizacao8.png"></div>
+    </div>
+
+    <h3>Compare os espectrogramas e as taxas de compressão nos arquivos gravados.</h3>
+    <p>Os espectrogramas ficaram extremamente similares.</p>
+
+    <table style="max-width:100%">
+        <tr><th>Nome</th>    <th>Arquivo</th>                <th>Tamanho</th><th>Taxa de Compressão (Original/Comprimida)</th> </tr>
+
+        <tr><td>Original</td><td>ImunizacaoRacional.wav</td> <td>52.000 MB</td> <td> 1.00</td> </tr>
+        <tr><td>Nível 0 </td><td>imunizacao0.mp3       </td> <td> 8.681 MB</td> <td> 5.99</td> </tr>
+        <tr><td>Nível 2 </td><td>imunizacao2.mp3       </td> <td> 6.899 MB</td> <td> 7.54</td> </tr>
+        <tr><td>Nível 4 </td><td>imunizacao4.mp3       </td> <td> 5.830 MB</td> <td> 8.92</td> </tr>
+        <tr><td>Nível 6 </td><td>imunizacao6.mp3       </td> <td> 4.629 MB</td> <td>11.23</td> </tr>
+        <tr><td>Nível 8 </td><td>imunizacao8.mp3       </td> <td> 3.945 MB</td> <td>13.18</td> </tr>
+    </table>
+
+    <p>As taxas de compressão foram bem elevadas, apesar da qualidade sonora ser mantida</p>
+
+    <h3>Link para o Jupyter Notebook</h3>
+    <p>
+        Geral <a href="./Lab8_Codificacao_Audio_mpeg_v2.ipynb">.ipynb</a> <br>
+    </p>
+
+    <h2>Áudio Descrição</h2>
+    <audio controls>
+            <source src="audio.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+    </audio><br>
+    
+   
+</div>
+</body>
+</html>
