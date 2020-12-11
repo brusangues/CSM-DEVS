@@ -32,7 +32,8 @@ tr:first-child {
 
 .column {
   float: left;
-  width: 50%;
+  width: 100%;
+  max-width: 100%;
   padding: 5px;
 }
 .column5{
@@ -49,6 +50,7 @@ tr:first-child {
 }
 .column img {
   width:100%;
+  max-width: 100%;
 }
 .column5 img {
   width:100%;
