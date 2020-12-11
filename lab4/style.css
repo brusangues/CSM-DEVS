@@ -1,0 +1,33 @@
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_images_side_by_side */
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.column5{
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column img {
+  width:100%;
+}
+.column5 img {
+  width:100%;
+}
+
+.big {
+    float: left;
+    max-width: 100%;
+}

@@ -1,0 +1,12 @@
+Caros,
+
+Eis o terceiro Laboratório, onde serão propostas atividades de Codificação de Imagens por transformada DCT e uma iniciação à Animação com o Blender.
+
+Para o relatório, além das atividades no Collab, colocar na sua página uma animação feita em Blender (ou outro sw), com a melhoria da iluminação sugerida por:
+
+Blender, Texto com Iluminação: https://www.youtube.com/watch?v=Lrhwq3cxz_c&t=216s
+E pesquise para comentar algo das possibilidades, de:
+
+Blender, Animação 2D: https://www.youtube.com/watch?v=vVziWi0vQkc
+ou 2D como se fosse 3D: https://www.youtube.com/watch?v=BlU49dJhfcw
+Minami
